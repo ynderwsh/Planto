@@ -30,7 +30,6 @@ body{
 
 .container{
     max-width: 1536px;
-    padding-top: 57px;
     margin: 0 auto;
 }
 
@@ -53,9 +52,9 @@ body{
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 14px;
+    font-size: 24px;
+    padding-top: 57px;
     font-weight: 400;
-    
     font-style: inherit;
 }
 
@@ -74,22 +73,16 @@ body{
 
 .header__item-menu{
     display: flex;
-    padding-left: 429px;
+    padding-left: 362px;
     gap: 59px;
-    margin-right: 367px;
+    margin-right: 292px;
 }
-
-
-.phone_img{
-    margin-right: 5px;
-}
-
 
 .header__block-title{
     font-family: "Inter", sans-serif;
     font-weight: 600;
     font-style: bold;
-    font-size: 118px;
+    font-size: 106px;
     max-width: 892px;
     padding-top: 162px;
     padding-bottom: 15px;
@@ -99,7 +92,7 @@ body{
     font-style: medium;
     max-width: 892px;
     padding-bottom: 54px;
-    text-transform: normal;
+    font-size: 23px;
 }
 
 .header__block-button{
@@ -110,12 +103,100 @@ body{
 }
 
 .header__block-button:hover{
-    background-color: #7B6152;
-    color: #FFF; 
+    background-color: #fff;
+    color: #000; 
 }
 
-.header__block-img{
+
+.header__inner-tovar{
+    padding-top: 102px;
+}
+
+.header__inner-calathea{
+    backdrop-filter: blur(30px);
+    border-radius: 100px;
+    max-width: 512px;
+    max-height: 744px;
+    margin-left: 244px;
+    
+    padding-bottom: 100px;
+}
+
+.header__block-vid{
+    font-size: 23px;
+    font-weight: 300;
+    padding-left: 72px;
+}
+
+.header__block-name {
+    font-size: 38px;
+    padding-bottom: 35px;
+    padding-top: 20px;
+    padding-left: 72px;
+}
+
+.header__calathea-img{
+    padding-left: 25px;
+    padding-bottom: 36px;
+}
+.header__block-button {
+    padding:  15px 49px;
+}
+
+.header__block{
+    column-count: 2;
+}
+
+.button_top{
+    padding-left: 72px;
+}
+
+
+.trandly__item-menu{
+    display: flex;
+   justify-content: center;
+}
+
+.trandly__link{
+    font-size: 55px;
+    padding-bottom: 130px;
+}
+
+.trandly__calathea-img{
     position: absolute;
-    margin-top: 30px;
-    margin-left: 290px;
+    top: 1039px; left: 90px;
+    z-index: 1;
+}
+
+.trandly__block-vid{
+    font-size: 38px;
+}
+
+.trandly__block-name {
+    font-size: 20px;
+    max-width: 732px;
+    padding-top: 24px;
+}
+
+
+.trandly__price{
+    padding-top: 24px;
+    padding-bottom: 30px;
+    font-size: 38px;
+}
+
+.in_bag-button{
+    margin-left: 35px;
+    background-color: transparent; 
+    border: 1px solid #FFF;
+    border-radius: 12px;
+    padding:  15px 15px; z-index: -1;
+}
+
+.trandly__inner-tovar{
+    backdrop-filter: blur(30px);
+    border-radius: 100px;
+    padding-top: 125px ;
+    padding-left: 944px;
+    padding-bottom: 100px;
 }
