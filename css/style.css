@@ -16,20 +16,23 @@ a{
     color: #FFF;
 }
 body{
-   
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 24px;
     font-style: normal;
-    background-color: #222C1D;
+    background-color: #1B2316;
     color: #fff;
+}
+
+.background_three{
     background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 84px;
 }
-
 .container{
     max-width: 1536px;
+    
     margin: 0 auto;
 }
 
@@ -159,13 +162,13 @@ body{
 
 .trandly__link{
     font-size: 55px;
-    padding-bottom: 130px;
+    padding-bottom: 281px;
 }
 
 .trandly__calathea-img{
     position: absolute;
-    top: 1039px; left: 90px;
-    z-index: 1;
+    top: 1266px;
+    left: 106px;
 }
 
 .trandly__block-vid{
@@ -190,13 +193,74 @@ body{
     background-color: transparent; 
     border: 1px solid #FFF;
     border-radius: 12px;
-    padding:  15px 15px; z-index: -1;
+    padding:  15px 15px;
 }
 
 .trandly__inner-tovar{
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(20px);
     border-radius: 100px;
     padding-top: 125px ;
-    padding-left: 944px;
-    padding-bottom: 100px;
+    padding-left: 857px;
+    padding-bottom: 176px;
+}
+
+.trandly__inner-tovar_2{
+    backdrop-filter: blur(20px)  saturate(150%);
+    border-radius: 100px;
+    padding-top: 125px ;
+    padding-left: 122px;
+    padding-bottom: 176px;
+    margin-top: 79px;
+}
+
+.trandly__ficus-img{
+    position: absolute;
+    top: 1902px;
+    left: 951px;
+}
+
+
+.top__calathea-1__link{
+    padding-top: 143px;
+    font-size: 55px;
+}
+
+.top__calathea-1__block-vid{
+    font-size: 38px;
+}
+
+.top__calathea-1__inner-tovar{
+    backdrop-filter: drop-shadow(4px 4px 10px 
+    blue);
+    border-radius: 100px;
+    padding-top: 361px ;
+    padding-bottom: 176px;  
+    max-width: 512px;
+    padding-left: 66px;
+}
+
+.top__calathea-1_bag-button{
+background-color: #000;
+margin-left: 35px;
+background-color: transparent; 
+border: 1px solid #FFF;
+border-radius: 12px;
+padding:  15px 15px;
+}
+
+.top__calathea-1_price{
+    font-size: 38px;
+    padding-top: 46px;
+}
+
+.top__calathea-1__block-name{
+    font-size: 20px;
+    max-width: 732px;
+    padding-top: 24px; 
+}
+
+.top__calathea-1__png{
+    position: absolute;
+    top: 2712px;
+    left: 163px;
 }
